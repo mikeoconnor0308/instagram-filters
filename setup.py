@@ -8,7 +8,7 @@ config = {
 	'url': 'https://github.com/acoomans/instagram-filters',
 	'author': 'Arnaud Coomans',
 	'author_email': 'arnaud.coomans@gmail.com',
-	'install_requires': ['PIL'],
+	'install_requires': ['pillow'],
 	'packages': ['instagram_filters', 'instagram_filters.filters', 'instagram_filters.decorations'],
 	'data_files' : [
 		('instagram_filters/decorations/frames', ['instagram_filters/decorations/frames/Kelvin.jpg', 'instagram_filters/decorations/frames/Nashville.jpg'])
