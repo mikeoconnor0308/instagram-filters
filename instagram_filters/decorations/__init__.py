@@ -1,3 +1,3 @@
-from border import Border
-from frame import Frame
-from vignette import Vignette
+from .border import Border
+from .frame import Frame
+from .vignette import Vignette
